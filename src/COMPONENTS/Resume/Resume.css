@@ -1,5 +1,6 @@
 .Resume .heading h1 {
   font-size: 40px;
+  text-align: center;
 }
 .Resume .content {
   max-width: 85%;
@@ -40,6 +41,7 @@
 }
 .Resume .content-section {
   position: relative;
+  justify-content: center;
 }
 .Resume .left {
   position: relative;
@@ -47,9 +49,9 @@
 .Resume .left::after {
   content: "";
   position: absolute;
-  top: 16%;
+  top: 17%;
   left: 0;
-  height: 118vh;
+  height: 290vh;
   width: 5px;
   background: #d9dee2;
   z-index: -2;

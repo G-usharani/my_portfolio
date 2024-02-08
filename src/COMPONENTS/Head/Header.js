@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import "./header.css"
 import logo from "../pic/usha.png"
-import Resume from "../pic/Resume.pdf"
 
 const Header = () => {
   // fixed Header
@@ -29,13 +28,13 @@ const Header = () => {
                 <a href='#portfolio'>portfolio</a>
               </li>
               <li>
-                <a href='#resume'>resume</a>
+                <a href='#resume'>Education</a>
               </li>
               <li>
                 <a href='#contact'>contact</a>
               </li>
               <li>
-              <button className="Resume" onClick={handleDownloadResume}>Download resume</button>
+                <a href="https://drive.google.com/file/d/1n08CnmdFxXLCmL_UfOIbV2PHHJhcYUln/view?usp=sharing" className="home-btn">DOWNLOAD RESUME</a>
               </li>
             </ul>
 

@@ -11,7 +11,7 @@ const Home = () => {
           <div className="left top">
             <h3>WELCOME TO MY WORLD</h3>
             <h1>
-              Hi, I’m <span>Ganthula Usha Rani</span>
+              Hi, I’m <br/><span>Ganthula Usha Rani</span>
             </h1>
             <h2>
               a
