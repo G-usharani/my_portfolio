@@ -1,5 +1,6 @@
 .Contact .left {
     width: 36%;
+    margin-left: 33%;
   }
   .Contact .right {
     width: 60%;
@@ -40,14 +41,16 @@
   .Contact .right button i {
     margin-left: 10px;
   }
-  @media (max-width: 768px) {
-    .Contact .d_flex {
-      flex-direction: column;
-    }
-    .Contact .left,
-    .Contact .right {
-      width: 100%;
-      margin-top: 50px;
-    }
+  .image{
+    height: 100%;
+    width: 100%;
   }
+  @media (max-width: 768px) {
+    /* Styles for tablets and phones */
+  }
+  
+  @media (max-width: 480px) {
+    /* Styles for smaller phones */
+  }
+  
   

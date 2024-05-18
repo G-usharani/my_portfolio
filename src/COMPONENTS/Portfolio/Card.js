@@ -28,8 +28,6 @@ const Card = (props) => {
           </a>
         </div>
       </div>
-
-      {/* Popup box */}
       {modal && (
         <div className='modal'>
           <div onClick={toggleModal} className='overlay'></div>
@@ -40,13 +38,9 @@ const Card = (props) => {
             <div className='modal-text right'>
               <span>Featured - Design</span>
               <h1>{props.title}</h1>
+              <p>{props.description}</p>
               <div className='button f_flex mtop'>
-                <button className='btn_shadow'>
-                  LIKE THIS <i class='far fa-thumbs-up'></i>
-                </button>
-                <button className='btn_shadow'>
-                  VIEW PROJECT<i class='fas fa-chevron-right'></i>
-                </button>
+              <a href={props.link} className="btn_shadow" >View Project</a>
               </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>
                 <i class='fas fa-times'></i>

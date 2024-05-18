@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import "./header.css"
-import logo from "../pic/usha.png"
 
 const Header = () => {
   // fixed Header
@@ -15,17 +14,20 @@ const Header = () => {
       <header className='header'>
         <div className='container d_flex'>
           <div className='logo'>
-            <img src={logo} alt='' />
+            <h2>My Portfolio</h2>
           </div>
 
           <div className='navlink'>
-            <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
+            <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"}>
               {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
               <li>
                 <a href='#home'>home</a>
               </li>
               <li>
-                <a href='#portfolio'>portfolio</a>
+                <a href="#skills">skills</a>
+              </li>
+              <li>
+                <a href='#projects'>projects</a>
               </li>
               <li>
                 <a href='#resume'>Education</a>

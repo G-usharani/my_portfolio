@@ -14,12 +14,6 @@
   border: 1px solid #e3e9ed;
   background-color: #e3e9ed;
 }
-.Resume .rate .btn_shadow {
-  color: #ff014f;
-  padding: 15px 30px;
-  font-weight: bold;
-  transition: 0.5s;
-}
 .Resume p {
   font-size: 18px;
   transition: 0.5s;
@@ -51,7 +45,7 @@
   position: absolute;
   top: 17%;
   left: 0;
-  height: 290vh;
+  height: 117vh;
   width: 5px;
   background: #d9dee2;
   z-index: -2;
@@ -82,11 +76,10 @@
   background: #ff3a75;
 }
 @media (max-width: 768px) {
-  .Resume .d_flex {
-    flex-direction: column;
-  }
-  .Resume .left::after {
-    top: 14%;
-    height: 105vh;
-  }
+  /* Styles for tablets and phones */
 }
+
+@media (max-width: 480px) {
+  /* Styles for smaller phones */
+}
+
